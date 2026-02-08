@@ -43,6 +43,8 @@ img {
 
 /* #region header */
 
+
+
 .page-header {
     border-bottom: 1px solid #e7e9fc;
 }
@@ -95,7 +97,7 @@ img {
 }
 
 .contacts {
-    margin: auto;
+    margin-left: auto;
 }
 
 .contacts-list {
@@ -139,7 +141,6 @@ img {
     padding-bottom: 188px;
 }
 
-
 .hero-button {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: #4d5ae5;
@@ -172,8 +173,17 @@ img {
     padding-bottom: 120px;
 }
 
-.title-feauture{
-    display: none;
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
 }
 
 .feature-list {
@@ -188,6 +198,7 @@ img {
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 
 .descr {
@@ -221,8 +232,6 @@ font-weight: 700;
 .team-list {
     display: flex;
     gap: 24px;
-    border-radius: 0 0 4px 4px;
-    width: 264px;
     height: 380px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
